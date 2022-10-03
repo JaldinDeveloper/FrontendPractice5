@@ -55,6 +55,20 @@
 background: var(--clear-color);
 }
 
+.input{
+  font-family: var(--main-font);
+  outline: 0;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.input-clear{
+  background: var(--input-clear-color);
+}
 
 /* /old code */
 
@@ -75,7 +89,7 @@ background: var(--clear-color);
 } */
 
 
-.form input {
+/* .form input {
   font-family: var(--main-font);
   outline: 0;
   background: #f2f2f2;
@@ -85,7 +99,9 @@ background: var(--clear-color);
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
-}
+} */
+
+
 
 
 
