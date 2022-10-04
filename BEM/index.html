@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
-<body>
-    <div id="login-page" class=".container">
-        <div class="form form-clear">
-          <form class="register-form">
-            <input class="input input-clear" type="text" placeholder="name"/>
-            <input class="input input-clear" type="password" placeholder="password"/>
-            <input class="input input-clear" type="text" placeholder="email address"/>
-            <button class="btn btn-info">create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
+<body class="body">
+    <div class="auth-Section">
+        <div class="auth-Section__card">
+          <form class="form form--register">
+            <input class="form__input" type="text" placeholder="name"/>
+            <input class="form__input" type="password" placeholder="password"/>
+            <input class="form__input" type="text" placeholder="email address"/>
+            <button class="btn btn--action btn--info">create</button>
+            <p class="message">Already registered? <a class="message__link--successful" href="#">Sign In</a></p>
           </form>
-          <form>
-            <input class="input input-clear" type="text" placeholder="username"/>
-            <input class="input input-clear" type="password" placeholder="password"/>
-            <button class="btn btn-success">login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          <form class="form">
+            <input class="form__input" type="text" placeholder="username"/>
+            <input class="form__input" type="password" placeholder="password"/>
+            <button class="btn btn--action btn--success">login</button>
+            <p class="message">Not registered? <a class="message__link--successful" href="#">Create an account</a></p>
           </form>
         </div>
     </div>
