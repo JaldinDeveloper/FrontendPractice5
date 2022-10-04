@@ -7,21 +7,25 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
-<body>
-    <div id="login-page" class=".container">
-        <div class="form form-clear">
-          <form class="register-form">
+<body class="body body-main">
+    <div class="page page-login">
+        <div class="card card-clear">
+          <form class="form form-register">
             <input class="input input-clear" type="text" placeholder="name"/>
             <input class="input input-clear" type="password" placeholder="password"/>
             <input class="input input-clear" type="text" placeholder="email address"/>
             <button class="btn btn-info">create</button>
-            <p class="message">Already registered? <a href="#">Sign In</a></p>
+            <p class="message message-neutral">Already registered? 
+              <a class="link link-successful" href="#">Sign In</a>
+            </p>
           </form>
-          <form>
+          <form class="form form-login">
             <input class="input input-clear" type="text" placeholder="username"/>
             <input class="input input-clear" type="password" placeholder="password"/>
             <button class="btn btn-success">login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
+            <p class="message message-neutral">Not registered? 
+              <a class="link link-successful" href="#">Create an account</a>
+            </p>
           </form>
         </div>
     </div>

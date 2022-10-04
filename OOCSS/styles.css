@@ -8,7 +8,8 @@
   --info-color: #101A57;
   --clear-color: #FFFFFF;
   --input-clear-color: #f2f2f2;
-  --background-color: #76b852;
+  --main-background-color: #76b852;
+  --neutral-color: #b3b3b3;
   --main-font: "Roboto", sans-serif;
   --shadow-container: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   --container-with: 360px;
@@ -41,7 +42,7 @@
   background-color: var(--info-color);
 }
 
-.form{
+.card{
   position: relative;
   z-index: 1;
   max-width: max-content;
@@ -51,7 +52,7 @@
   box-shadow: var(--shadow-container);
 }
 
-.form-clear {
+.card-clear {
 background: var(--clear-color);
 }
 
@@ -70,13 +71,55 @@ background: var(--clear-color);
   background: var(--input-clear-color);
 }
 
-/* /old code */
-
-#login-page {
-  width: var(--container-with);
+.page {
   padding: 8% 0 0;
   margin: auto;
 }
+
+.page-login {
+  width: var(--container-with);
+}
+
+.message{
+  margin: 15px 0 0;
+  font-size: 12px;
+}
+
+.message-neutral{
+  color: var(--neutral-color);  
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link-successful{
+  color: var(--success-color);
+}
+
+.form{
+  /* some attributes */
+}
+
+.form-register{
+  display: none;
+}
+
+.form-login{
+  /* some attributes */
+}
+
+.body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.body-main{
+  background: var(--main-background-color);
+}
+
+/* /old code */
+
 /* #login-page > .form {
   position: relative;
   z-index: 1;
@@ -136,19 +179,23 @@ background: var(--clear-color);
 /* .form button:hover,.form button:active,.form button:focus {
   background: #43A047;
 } */
-.form .message {
+
+/* .form .message {
   margin: 15px 0 0;
-  color: #b3b3b3;
+  color: var(--neutral-color);
   font-size: 12px;
-}
-.form .message a {
+} */
+
+
+/* .form .message a {
   color: #4CAF50;
   text-decoration: none;
-}
-.form .register-form {
-  display: none;
-}
+} */
 
+/* .register-form{
+  display: none;
+} */
+/* 
 .container {
   position: relative;
   z-index: 1;
@@ -181,9 +228,4 @@ background: var(--clear-color);
 }
 .container .info span .fa {
   color: #EF3B3A;
-}
-body {
-  background: var(--background-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
-}
+} */
