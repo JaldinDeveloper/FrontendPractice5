@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+/*Base*/
+body {
+    background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 0.938rem;
+    padding: 0.875rem;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+}
+button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 0.875rem;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    background: #43A047;
+}
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+/*Layouts*/
+#l-login-page {
+    width: 22.5rem;
+    padding: 8% 0 0;
+    margin: auto;
+}
+#l-login-page > .l-form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 22.5rem;
+    margin: 0 auto 6.25rem;
+    padding: 2.8125rem;
+    text-align: center;
+    box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.2), 0 0.3125rem 0.3125rem 0 rgba(0, 0, 0, 0.24);
+}
+/*Modules*/
+.register-form{
+    //
+}
+.register-name{
+    //
+}
+.register-password{
+    //
+}
+.register-email{
+    //
+}
+.register-button {
+    background: #101A57;
+}
+.register-link{
+    //
+}
+.login-form{
+//
+}
+.login-name{
+//
+}
+.login-password{
+//
+}
+.login-button {
+    background: #4CAF50;
+}
+.login-link{
+//
+}
+.message {
+    margin: 0.9375rem 0 0;
+    color: #b3b3b3;
+    font-size: 0.75rem;
+}
+/*State*/
+.is-hidden{
+    display: none;
+}
